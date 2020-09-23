@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>อ่านข้างล่างแล้วอ่ย่าเสียใจกับความผิดพลาด</h2>
+
+<p id="demo">ล้มลงไปบ้างจะเป็นไรไป คนเราลุกขึ้นมาจากความผิดพลาดได้เสมอ.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='68px'">Click Me!</button>
+
+</body>
+</html> 
+
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "KASIRA.";
+}
+</script>
+</head>
+<body>
+
+<h2>Hello Hello</h2>
+
+<p id="demo">Juneder.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html> 
+
+<html>
+<body>
+
+<h2>ผลลัพธ์ในอนาคต 
+เกิดจากการลงมือทำวันนี้ </h2>
+<p>.อนาคตอยากขายดี
+วันนี้ต้องขยัน และสม่ำเสมอ!!</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 122+ 877;
+</script>
+
+</body>
+</html> 
+
+<html>
+<body>
+
+<h2> ^-^</h2>
+
+<p>-*-*<b>x+y=Z;</b> หรือ Z+x+y;</p>
+
+<p id="demo"></p>
+
+<script>
+var x, y, z;  // Statement 1
+x = 9;        // Statement 2
+y = 4;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo").innerHTML =
+"ค่าของzคือ " + z + ".";  
+</script>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h2>ตัวเลข</h2>
+
+<p>การเขียนเลขแบบมีทศนิยม</p>
+
+<p id="demo"></p>
+
+<script>
+
+document.getElementById("demo").innerHTML = 12 ;
+
+</script>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h2>ความคิดเห็น</h2>
+
+<p id="demo"></p>
+
+<script>
+var x = 999;    // Declare x, give it the value of 5
+var y = x + 4125;  // Declare y, give it the value of x + 2 
+// Write y to demo:
+document.getElementById("demo").innerHTML = y;
+</script>
+
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<h2>********</h2>
+
+<p> ผลลัพธ์ของ4 + 6 + 10:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 4 + 6 + 10;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<h2>KASIRA SORNSUK</h2>
+
+<p id="demo"></p>
+
+<script>
+var x = 2007;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<p>
+การคูณมีความสำคัญเหนือกว่าการบวก.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 60+ 15 * 3;
+</script>
+
+</body>
+</html>
+
+
+<html>
+<body>
+
+<h2> *= </h2>
+
+<p id="demo"></p>
+
+<script>
+var x = 5;
+x *= 8;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h2>Bye BYE</h2>
+
+
+
+<p id="demo"></p>
+
+<script>
+var x = 1910711102007 + "juneee";
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
