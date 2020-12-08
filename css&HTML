@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>1910711102007 กษิรา สอนนสุข</title>
+<script src = "http://use.edgefonts.net/sarina.js"></script>
+<link href="june1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="container">
+    <div id="header">
+        <h1>JUNE</h1> 
+        <p>Fashion + Lifestyle</p>
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+    </div>
+    <div id="main_image">
+        <p><img src="june.jpg" width="968" height="400" alt="june"</p>
+        <div id="main_text">
+            <h2>HELLO I'm june.</h2>
+            <h3>Hey</h3>
+            <p> Perhaps our eyes need to be washed by our tears once in a while,
+so that we can see life with a clearer view again.</p>
+        </div>
+    </div>
+    <div id="left_column">
+        <p><img src="images/car.jpg" width="316" height="130" alt="car"</p>
+        <h2>Inside Tesla Motors@</h2>
+        <p>The company that built the first high-performance, environmentally-friendly sports car opens up its factory, shares some of their secrets, and puts the vehicle to the ultimate test: 
+            putting two sworn enemies in the same two-seater.</p>
+        <a href="news.html">read more...</a>
+
+    </div>
+    <div id="center_column">
+        <p><img src="images/data_addict.jpg" width="316" height="130" alt="Data"</p>
+        <h2>Facts And Figures</h2>
+        <p>How much thrust would a jet engine need in order to get the entire city of London off the ground? We leave that to lesser minds. 
+            But if you want to talk Kierkegaard, you've come to the right place.</p>
+            <a href="news.html">read more...</a>
+    </div>
+    <div id="right_column">
+        <p><img src="images/helmet.jpg" width="316" height="130" alt="helmet"</p>
+        <h2>Today's Self Improvement</h2>
+        <p>Whether you want advice on how to throw together a killer outfit, 
+            a dinner for two, or a killer punch, we've got you covered.</p>
+            <a href="news.html">read more...</a>
+    </div>
+    
+</div>
+</body>
+</html>
+
+
+
+
+
+**************************************************************css*********************************************************************
+
+
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+    width: 968px;
+    background: #FFF;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+#main_image {
+    background-image: no-image;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 968px;
+    position: relative;
+}
+#left_column, #center_column, #right_column {
+    width: 316px;
+    float: left;
+}
+#center_column, #right_column {
+    margin-left: 10px;
+}
+h1 {
+    font-family: sarina, serif;
+    font-size: 96px;
+    margin: 0;
+    float: left;
+}
+#header p {
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+    font-size: 40px;
+    font-variant: small-caps;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+} 
+#header a {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #FFFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100px;
+    
+
+}
+#header ul {
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#header ul li {
+    float: left;
+}
+
+#header {
+    color: #FFF;
+    background-color: #000000;
+    height: 100px;
+    position: relative;
+}
+#main_text {
+    background-color:#FFF;
+    background:#99CCFF;
+    width: 300px;
+    position: absolute ;
+    right: 60px;
+    bottom: 60px;
+    padding: 12px;
+    border-radius:10px;
+}
+
+#main_text h2 {
+    color: #FF0033 ;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+#main_text h3 {
+    font-size: 16px;
+    margin: 0px;
+
+}
+#main_text p {
+    font-size: 14px;
+    line-height:1.2;
+    margin: 0px;
+}
+
+
+
+
